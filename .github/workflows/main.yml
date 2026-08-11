@@ -1,0 +1,10 @@
+name: My Fist Pipeline
+
+on: push
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say hello
+        run: echo "Hello from CI/CD! The robot ran automatically."
